@@ -1,0 +1,271 @@
+*{
+
+    padding:0;
+    margin:0;
+}
+.s-section
+{
+    background-image: url(sow.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    min-height: 150vh;
+    max-width: 100vw;
+    background-color: rgb(92, 101, 96);
+    background-repeat: no-repeat;
+    position:relative;
+    text-align:left;
+}
+.s-text{
+    color: rgb(6, 6, 6);
+    position: absolute;
+    top:1%;
+    left: 5%;
+    
+}
+.para{
+    font-size: 1.5rem;
+}
+
+
+
+.s-text > h1{
+    font-size: 100px; 
+}
+.about-section{
+    font-size: 1.7rem;
+}
+
+.about-section>h1{
+    display: flex;
+
+
+}
+.view-button{
+    background-color: rgba(50, 53, 53, 0.437);
+    border:none;
+    border-radius: 5px;
+    padding: 2px;
+    cursor:pointer;
+    margin: 10px;
+    
+}
+.view-button:hover{
+    border: none;
+    color: rgba(2, 2, 2, 0.452);
+}
+.know{
+    background-image: radial-gradient(circle, #5777a6, #4b94bc, #4ab0c9, #61cbcd, #8ae4cc);
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+}
+.tuned{
+    text-align: center;
+    margin-top: 18rem;
+}
+.view{
+    background-image: radial-gradient(circle, #dbbfd7, #b5b7da, #86b1d0, #5fa9b4, #589d8b);
+    text-align: center;
+    font-size: 100px; 
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.know-button
+{
+    background-color: rgb(57, 145, 116);
+    border-radius: 0.3rem;
+}
+.know-button:hover{
+    color: black;
+    background-color: rgb(87, 125, 108);
+    border:none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor:pointer;
+
+}
+.about-heading{
+    margin-left: 30%;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-me{
+    width: 60%;
+    display: flex;
+    text-align: center;
+}
+ul li{
+    list-style-type: disc;
+}
+
+.hobby{
+    justify-content: space-around;
+    list-style-type: circle;
+    font-size: 25px;
+    margin: 10px 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.img1{
+    
+    height: 40px;
+    width: 40px;
+    display: inline;
+}
+.img2{
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    display: inline;
+}
+.linkin{
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loading{
+    margin-top: 23%;
+
+}
+
+.know{
+    background-color: rgb(74, 72, 42);
+    border:none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor:pointer;
+}
+.a{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:501px) and (max-width:980px){
+    .s-section
+    {
+     
+     min-height: 100vh;
+     max-width: 100vw;
+     background-color: rgb(92, 101, 96);
+     background-repeat: no-repeat;
+     }
+    .s-text>h1{
+        font-size: 60px;
+        width: fit-content;
+        
+    }
+    .s-text>p{
+        display: block;
+        font-size: 30px;
+        left: 0%;
+        margin: 0%;
+    }
+    
+    .about-me{
+        width: 100%;
+        padding: 0rem;
+    }
+    .about-section{
+        font-size: 1.4rem;
+    }
+    .loading{
+        margin-top:20rem ;
+        text-align: center ;
+        font-size: 4.5rem;
+    }
+    .know{
+        min-height: 50vh;
+        max-width: 100vw;
+    }
+    .tuned{
+        font-size:4.5rem;
+        text-align: center;
+        margin-top: 20rem;
+    }
+    
+    .linkin{
+        margin-left: 22rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+   
+    .s-section
+   {
+    
+    min-height: 50vh;
+    max-width: 100vw;
+    background-color: rgb(92, 101, 96);
+    background-repeat: no-repeat;
+    }
+    .s-text>h1{
+        font-size: 25px;
+        width: fit-content;
+        
+    }
+    .s-text> p{
+        font-size: 10px;
+        left: 0%;
+    }
+    .about-section{
+        font-size: 1.5rem;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0.5rem 1rem;
+       
+    }
+    .about-section>h1{
+        display: block;
+    }
+    .about-me{
+        width: 100%;
+        padding: 0rem;
+        font-size: 1.1rem;
+    }
+    
+    .hobby{
+        text-align: left;
+        font-size: 1.1rem;
+    }
+    .loading{
+        margin-top:23rem ;
+        text-align: center ;
+        font-size: 1.5rem;
+    }
+    .know{
+        min-height: 50vh;
+        max-width: 100vw;
+    }
+    .tuned{
+        font-size:1.5rem;
+        text-align: center;
+        margin-top: 23rem;
+    }
+    
+    .linkin{
+        margin-left: 8rem;
+    }
+    
+    .a{
+        font-size: 26px;
+        text-align: center;
+    }
+    
+}
